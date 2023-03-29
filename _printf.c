@@ -11,13 +11,15 @@
 int _printf(const char *format, ...)
 {
 va_list _print;
-int cont = 0;
+int cont;
+
 
 va_start(_print, format);
+for (cont = 0; format[cont] != '\0'; cont++)
+{
 
 
-
-
+}
 
 
 
