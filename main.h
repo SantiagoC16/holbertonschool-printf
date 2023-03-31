@@ -1,24 +1,12 @@
-#ifndef printf
-#define printf
+#ifndef print
+#define print
 
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <stdarg.h>
 #include <unistd.h>
-
-/**
- * struct printf - struct
- *
- * 
- *
- */
-
-typedef struct print
-{
-	char *formats;
-	char (*func)(va_list var);
-} print_t;
 
 int _printf(const char *format, ...);
 
