@@ -22,10 +22,4 @@ typedef struct print
 
 int _printf(const char *format, ...);
 
-print_t print[] = {
-{'c', character}
-{'s', string}
-{'%', porcentaje}
-};
-
 #endif
