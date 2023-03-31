@@ -17,12 +17,18 @@ char ch;
 char *str;
 
 va_start(_print, format);
+print  = {
+{'c', character},
+{'s', string},
+{'%', porcentaje},
+}
 for (cont = 0; format[cont] != '\0'; cont++)
 {
 	if (format[cont] == '%')
 	{
+		cont2++
 		{
-			if (format[cont] = 's')
+			if (format[cont2] = 's')
 			{
 				char *str = va_arg(_print, char *);
 				_putchar(xD);
