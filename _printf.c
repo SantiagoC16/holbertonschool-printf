@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
-#include <main.h>
+#include "main.h"
 /**
  * _printf - Write a function that produces output according to a format.
  *
@@ -9,6 +9,7 @@
  *
  * Return: 0
  */
+<<<<<<< HEAD
 int print_null(void)
 {
   int i, count = 0;
@@ -21,8 +22,6 @@ int print_null(void)
   return (count);
 }
 
-int _printf(const char *format, ...)
-{
   int _printf(const char *format, ...)
   {
     va_list _print;
@@ -80,3 +79,5 @@ int _printf(const char *format, ...)
     va_end(_print);
  }
 
+=====
+>>>>>>> master
