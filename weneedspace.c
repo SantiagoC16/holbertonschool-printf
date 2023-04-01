@@ -65,5 +65,5 @@ while (keys[compare].type)
 	if (x == keys[compare].type)
 	{
 		return (keys[compare].f(types));
-	}
+	} }
 return (0); }

@@ -21,7 +21,7 @@ typedef struct print
 } print_t;
 
 int _printf(const char *format, ...);
-int print_null(void);
+int _putchar(char c);
 int print_all(char x, va_list _print);
 int character(va_list _print);
 int string(va_list _print);

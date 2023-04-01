@@ -11,103 +11,32 @@
  */
 int _printf(const char *format, ...)
 {
+va_list _print;
+int cont, i;
 
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-int print_null(void)
+va_start(_print, format);
+if (format != NULL)
 {
-int i, count = 0;
-char nothing[] = "(null)";
-for (i = 0; i < 6; i++)
-{
-	putchar(nothing[i]);
-	count++; }
-return (count); }
-
-int _printf(const char *format, ...)
-{
-	va_list _print;
-	int cont, i, cont2 = 0, skip = 0, size, amount = 0;
-	char *str = NULL;
-
-	va_start(_print, format);
-	for (cont = 0; format[cont] != '\0'; cont++)
+	for (i = 0; format[i] != '\0'; i++)
 	{
-		cont2++;
-		if (format[cont] == '%' && amount == 0)
+		if (format[i] == '%')
 		{
-		switch (format[cont + 1])
-		{
-		case 's':
-		cont2 -= 2;
-		str = va_arg(_print, char *);
-		if (str != NULL)
-		{
-			size = strlen(str);
-			for (i = 0; i < size; i++)
-			cont2++;
-			putchar(str[i]); }
+			if (format[i + 1] != '\0')
+			{
+				cont += print_all(format[i + 1], _print);
+			}
+			else
+			{
+				return (-1);
+			}
+		}
 		else
-		cont2 += print_null();
-		skip = 1;
-		break;
-		case 'c':
-		putchar(va_arg(_print, int));
-		skip = 1;
-		cont2--;
-		break;
-		case '%':
-		amount++;
-		cont2--;
-		putchar('%');
-		skip = 1;
-		break;
-		case ' ':
-		return (-1); } }
-	else if (skip != 1)
-	{
-	putchar(format[cont]);
-	if (format[cont + 1] == '%')
-		amount = 0; }
-	else if (skip == 1)
-	skip = 0; }
-return (cont2);
-va_end(_print); }
+		{
+			_putchar(format[i]);
+			cont++;
+		} } }
+else
+{
+	return (-1); }
+va_end(_print);
+return (cont); }
