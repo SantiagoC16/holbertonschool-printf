@@ -20,7 +20,7 @@ int character(va_list _print)
  * Return: 0
  */
 
-int porcentaje(va_list _print)
+int porcentaje(__attribute__ ((unused)) va_list _print)
 {
 	_putchar('%');
 	return (0); }
