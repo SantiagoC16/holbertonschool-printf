@@ -8,6 +8,18 @@
 #include <stdarg.h>
 #include <unistd.h>
 
+/**
+ * struct print - struct 
+ * @type: c
+ * @f: function
+ */
+
+typedef struct print
+{
+	char type;
+	int (*f)(va_list types);
+} print_t;
+
 int _printf(const char *format, ...);
 int print_null(void);
 #endif
