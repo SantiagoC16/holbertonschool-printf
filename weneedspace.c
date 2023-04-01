@@ -12,8 +12,7 @@ int character(va_list _print)
 
 	ch = va_arg(_print, int);
 	putchar(ch);
-	return (0);
-}
+	return (0); }
 
 /**
  * porcentaje - print %
@@ -24,8 +23,7 @@ int character(va_list _print)
 int porcentaje(va_list _print)
 {
 	putchar('%');
-	return (0);
-}
+	return (0); }
 
 /**
  * string - print %s
@@ -43,13 +41,29 @@ int string(va_list _print)
 		str = "(null)";
 	}
 	write(1, str, strlen(str));
-	return (0);
-}
+	return (0); }
 
 /**
- *
- *
- *
+ * print_all - print
+ * @x: is a char
+ * @_print: va_list
+ * Return: 0
  */
 
-int print_all
+int print_all(char x, va_list _print)
+{
+int compare = 0;
+
+print_t types[] = {
+{"c", character},
+{"%", porcentaje},
+{"s", string},
+{NULL, NULL}, };
+
+while (types[compare].type)
+{
+	if (types[compare].type == print)
+	{
+		return (types[compare].type);
+}
+return (NULL); }
