@@ -9,5 +9,5 @@
 #include <unistd.h>
 
 int _printf(const char *format, ...);
-
+int print_null(void);
 #endif

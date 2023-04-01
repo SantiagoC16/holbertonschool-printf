@@ -9,7 +9,6 @@
  *
  * Return: 0
  */
-<<<<<<< HEAD
 int print_null(void)
 {
   int i, count = 0;
@@ -78,6 +77,3 @@ int print_null(void)
     return (cont2);
     va_end(_print);
  }
-
-=====
->>>>>>> master
