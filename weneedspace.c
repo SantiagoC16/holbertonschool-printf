@@ -11,7 +11,7 @@ int character(va_list _print)
 	char ch;
 
 	ch = va_arg(_print, int);
-	putchar(ch);
+	_putchar(ch);
 	return (0); }
 
 /**
@@ -22,7 +22,7 @@ int character(va_list _print)
 
 int porcentaje(va_list _print)
 {
-	putchar('%');
+	_putchar('%');
 	return (0); }
 
 /**
