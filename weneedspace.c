@@ -12,7 +12,7 @@ int character(va_list _print)
 
 	ch = va_arg(_print, int);
 	_putchar(ch);
-	return (0); }
+	return (1); }
 
 /**
  * porcentaje - print %
@@ -22,8 +22,8 @@ int character(va_list _print)
 
 int porcentaje(__attribute__ ((unused)) va_list _print)
 {
-	_putchar('%');
-	return (0); }
+	write(1, "%", 1);
+	return (1); }
 
 /**
  * string - print %s
@@ -41,7 +41,7 @@ int string(va_list _print)
 		str = "(null)";
 	}
 	write(1, str, strlen(str));
-	return (0); }
+	return (strlen(str)); }
 
 /**
  * print_all - print
