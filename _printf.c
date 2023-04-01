@@ -37,6 +37,7 @@ if (format != NULL)
 		} } }
 else
 {
+va_end(_print);
 	return (-1); }
 va_end(_print);
 return (cont); }

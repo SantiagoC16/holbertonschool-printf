@@ -65,5 +65,10 @@ while (keys[compare].type)
 	if (x == keys[compare].type)
 	{
 		return (keys[compare].f(_print));
-	} }
+	compare++;
+if (!keys[compare].type)
+{
+	_putchar('%');
+	_putchar(x);
+	return (2); } } }
 return (0); }
