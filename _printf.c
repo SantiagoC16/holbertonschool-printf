@@ -17,7 +17,7 @@ int cont, i;
 va_start(_print, format);
 if (format != NULL)
 {
-	for (i = 0; format[i] != '\0'; i++)
+	for (i = 0; format && format[i] != '\0'; i++)
 	{
 		if (format[i] == '%')
 		{
