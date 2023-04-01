@@ -54,16 +54,16 @@ int print_all(char x, va_list _print)
 {
 int compare = 0;
 
-print_t types[] = {
-{"c", character},
-{"%", porcentaje},
-{"s", string},
-{NULL, NULL}, };
+print_t keys[] = {
+{'c', character},
+{'%', porcentaje},
+{'s', string},
+{'\0', NULL}, };
 
-while (types[compare].type)
+while (keys[compare].type)
 {
-	if (types[compare].type == print)
+	if (x == keys[compare].type)
 	{
-		return (types[compare].type);
-}
-return (NULL); }
+		return (keys[compare].f(types));
+	}
+return (0); }

@@ -22,4 +22,9 @@ typedef struct print
 
 int _printf(const char *format, ...);
 int print_null(void);
+int print_all(char x, va_list _print);
+int character(va_list _print);
+int string(va_list _print);
+int porcentaje(va_list _print);
+
 #endif
