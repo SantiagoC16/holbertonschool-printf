@@ -12,9 +12,9 @@ The fucntion printf is a standard library function that produce output and can p
 | %%               | Print %          |
 
 <ul>
-  <li> </li>
-  <li> Examples </li>
-  <li> Files </li>
+ <h3><li> </li></h3>
+ <h3><li> Examples </li></h3>
+ <h3><li> Files </li></h3>
 </ul>
 
 Authors:
