@@ -11,9 +11,7 @@ The fucntion printf is a standard library function that produce output and can p
 | %d, %i           | Print a number   |
 | %%               | Print %          |
 
-<ul>
- <h3><li> </li></h3>
- <div><h3><li> Examples </li></h3>
+ <div><h2><li> Examples </li></h2>
 
  |              Input             |      Output      |
  | ------------------------------ | ---------------- |
@@ -21,7 +19,8 @@ The fucntion printf is a standard library function that produce output and can p
  | _printf("Im %d years old", 20) | Im 20 years old  |
 
  </div>
- <div><h3><li> Files </li></h3>
+
+ <div><h2> Files </h2>
 
  1. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_printf.c">_printf.c</a></p></h4>
  2. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/print_all.c">print_all.c</a></p></h4>
@@ -30,8 +29,7 @@ The fucntion printf is a standard library function that produce output and can p
  5. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_putchar.c">_putchar.c</a></p></h4>
 
  </div>
-</ul>
 
-Authors:
+<h5>Authors: </h5>
 <p><a href="https://github.com/SantiagoC16">Santiago Caritat</a></p>
 <p><a href="https://github.com/Froggstar11">Miguel Damasco</a></p>
