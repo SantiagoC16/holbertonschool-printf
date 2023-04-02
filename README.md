@@ -1,4 +1,4 @@
-<h1> Holberton School Printf </h1>
+<h1> <center> Holberton School Printf </center> </h1>
 
 This project was the first big programming challenge we had to do in Holberton, the objetive of this project was to make a printf like function from zero.
 
