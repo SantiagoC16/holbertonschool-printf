@@ -37,6 +37,16 @@ The fucntion printf is a standard library function that produce output and can p
 
  </div>
 
+ <div><h2> How the function work: </h2>
+
+ 1. We check if the string isn't empty
+ 2. If is empty we return an error message
+ 3. if is not empty we itterate the string looking for the simbol %
+ 4. 
+
+
+ </div>
+
  <div><h2> Examples </h2>
 
  |              Input             |      Output      |
