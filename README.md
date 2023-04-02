@@ -58,11 +58,11 @@ The fucntion printf is a standard library function that produce output and can p
  <details>
  <summary><h1> Examples </h1> </summary>
 
- |                Input                |        Output         |
- | ----------------------------------- | --------------------- |
- | _printf("%s", "Hello World")        | Hello World           |
- | _printf("Im %d years old", 20)      | Im 20 years old       |
- | _printf("My name start with %c", A) | My name start with A  |
+ |                 Input                 |        Output         |
+ | ------------------------------------- | --------------------- |
+ | _printf("%s", "Hello World")          | Hello World           |
+ | _printf("Im %d years old", 20)        | Im 20 years old       |
+ | _printf("My name start with %c", 'A') | My name start with A  |
 
  </details>
  </div>
