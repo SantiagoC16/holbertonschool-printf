@@ -11,8 +11,8 @@
  */
 int _printf(const char *format, ...)
 {
-va_list _print;
-int cont = 0, i;
+va_list _print; 
+int cont = 0, i; /* declare variables */
 
 va_start(_print, format);
 if (format != NULL)
