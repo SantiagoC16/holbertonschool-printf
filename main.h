@@ -9,7 +9,7 @@
 #include <unistd.h>
 
 /**
- * struct print - struct 
+ * struct print - struct
  * @type: c
  * @f: function
  */

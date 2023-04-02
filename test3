@@ -34,3 +34,38 @@ return (1);
  */
 int main(void)
 {
+	int a, b, cont = 0;
+		BLUE;
+			printf("\nTEST WITHOUT ARGUMENTS:\n\n");
+				RESET;
+					printf("Test 1");
+						printf("\nexpected: ");
+							a = printf("Buenas Noches America");
+								printf("\nobtained: ");
+									fflush(stdout);
+										b = _printf("Buenas Noches America");
+											cont = cont + output(a,b);
+												printf("\n---------------\n");
+													printf("Test 2");
+														printf("\nexpected: ");
+															a = printf(" ");
+																printf("\nobtained: ");
+																	fflush(stdout);
+																		b = _printf(" ");
+																			cont = cont + output(a,b);
+																				printf("\n---------------\n");
+																					printf("Test 3");
+																						printf("\nexpected: ");
+																							a = printf("");
+																								printf("\nobtained: ");
+fflush(stdout);
+b = _printf("");
+cont = cont + output(a,b);
+printf("\n---------------\n");
+printf("Test 4");
+printf("\nexpected: ");
+a = printf(NULL);
+printf("\nobtained: ");
+fflush(stdout);
+b = _printf(NULL);
+cont = cont + output(a,b);
