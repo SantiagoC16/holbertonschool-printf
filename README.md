@@ -11,8 +11,9 @@ The fucntion printf is a standard library function that produce output and can p
 | %d, %i           | Print a number   |
 | %%               | Print %          |
 
+ <div>
  <details>
- <div><h2><summary> Requirements </summary> </h2>
+ <summary> <h2> Requirements </h2> </summary>
 
  <h4>General</h4>
  <li> Allowed editors: vi, vim, emacs  </li>
@@ -36,7 +37,8 @@ The fucntion printf is a standard library function that produce output and can p
  <li> va_copy (man 3 va_copy) </li>
  <li> va_arg (man 3 va_arg) </li>
 
- </div></details>
+ </details>
+ </div>
 
  <div><h2> How the function work: </h2>
 
