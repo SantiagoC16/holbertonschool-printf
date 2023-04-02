@@ -1,4 +1,4 @@
-<h1> <center> Holberton School Printf </center> </h1>
+<h1> Holberton School Printf </h1>
 
 This project was the first big programming challenge we had to do in Holberton, the objetive of this project was to make a printf like function from zero.
 
@@ -49,17 +49,20 @@ The fucntion printf is a standard library function that produce output and can p
 
 
  </div>
-
- <div><h2> Examples </h2>
+ <details>
+ <div><summary><h2> Examples </h2> </summary>
 
  |              Input             |      Output      |
  | ------------------------------ | ---------------- |
  | _printf("%s", "Hello World")   | Hello World      |
  | _printf("Im %d years old", 20) | Im 20 years old  |
 
+ </details>
  </div>
 
- <div><h2> Files </h2>
+ <div>
+ <details>
+ <summary><h2> Files </h2> </summary>
 
  1. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_printf.c">_printf.c</a></p></h4>
  2. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/print_all.c">print_all.c</a></p></h4>
@@ -67,6 +70,7 @@ The fucntion printf is a standard library function that produce output and can p
  4. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/main.h">main.h</a></p></h4>
  5. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_putchar.c">_putchar.c</a></p></h4>
 
+ </details>
  </div>
 
 <h5>Authors: </h5>
