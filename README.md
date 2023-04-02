@@ -27,6 +27,15 @@ The fucntion printf is a standard library function that produce output and can p
  <li> All your header files should be include guarded </li>
  <li> Note that we will not provide the _putchar function for this project </li>
 
+ </h4> Authorized functions and macros </h4>
+ <li> write (man 2 write) </li>
+ <li> malloc (man 3 malloc) </li>
+ <li> free (man 3 free) </li>
+ <li> va_start (man 3 va_start) </li>
+ <li> va_end (man 3 va_end) </li>
+ <li> va_copy (man 3 va_copy) </li>
+ <li> va_arg (man 3 va_arg) </li>
+
  </div>
 
  <div><h2> Examples </h2>
