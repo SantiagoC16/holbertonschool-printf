@@ -16,5 +16,5 @@ __attribute__ ((unused)) void *addr;
 
 len = _printf("Percent:[%%]\n");
 len2 = printf("Percent:[%%]\n");
-return (0);
+return (2);
 }
