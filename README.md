@@ -13,7 +13,7 @@ The fucntion printf is a standard library function that produce output and can p
 
  <div>
  <details>
- <summary> <h2> Requirements </h2> </summary>
+ <h2> <summary> Requirements </summary> </h2>
 
  <h4>General</h4>
  <li> Allowed editors: vi, vim, emacs  </li>
