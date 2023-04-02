@@ -42,7 +42,7 @@ The fucntion printf is a standard library function that produce output and can p
 
  <div>
  <details>
- </summary> <h1> How the function work: </h1> </summary>
+ <summary> <h1> How the function work: </h1> </summary>
 
  1. We check if the string isn't empty
  2. If is empty we return an error message
