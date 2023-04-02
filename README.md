@@ -15,14 +15,20 @@ The fucntion printf is a standard library function that produce output and can p
  <h3><li> </li></h3>
  <div><h3><li> Examples </li></h3>
 
- |                Input               |      Output      |
- | ---------------------------------  | ---------------- |
- | _printf("%s", "Hello World\n")     | Hello World      |
- | _printf("Im %d years old", "20\n") | Im 20 years old  |
+ |              Input             |      Output      |
+ | ------------------------------ | ---------------- |
+ | _printf("%s", "Hello World")   | Hello World      |
+ | _printf("Im %d years old", 20) | Im 20 years old  |
 
  </div>
  <div><h3><li> Files </li></h3>
- 
+
+ 1. _printf.c
+ 2. print_all.c
+ 3. aux_functions.c
+ 4. main.h
+ 5. _putchar.c
+
  </div>
 </ul>
 
