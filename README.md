@@ -14,6 +14,7 @@ The fucntion printf is a standard library function that produce output and can p
 <ul>
  <h3><li> </li></h3>
  <div><h3><li> Examples </li></h3>
+
  |                Input               |      Output      |
  | ---------------------------------  | ---------------- |
  | _printf("%s", "Hello World\n")     | Hello World      |
