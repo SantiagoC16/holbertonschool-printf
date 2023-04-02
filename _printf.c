@@ -12,12 +12,12 @@
 int _printf(const char *format, ...)
 {
 va_list _print;
-int cont, i;
+int cont = 0, i;
 
 va_start(_print, format);
 if (format != NULL)
 {
-	for (i = 0; format && format[i] != '\0'; i++)
+	for (i = 0; format[i] != '\0'; i++)
 	{
 		if (format[i] == '%')
 		{
@@ -29,10 +29,11 @@ if (format != NULL)
 			{
 				return (-1);
 			}
+			i++;
 		}
 		else
 		{
-			_putchar(format[i]);
+			write(1, &format[i], 1);
 			cont++;
 		} } }
 else

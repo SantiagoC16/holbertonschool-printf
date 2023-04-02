@@ -28,14 +28,19 @@ int porcentaje(__attribute__ ((unused)) va_list _print)
 int string(va_list _print)
 {
 	char *str;
+int size, count = 0, i;
 
 	str = va_arg(_print, char *);
 	if (str == NULL)
 	{
 		str = "(null)";
 	}
-	write(1, str, strlen(str));
-	return (strlen(str)); }
+	size = strlen(str);
+	for (i = 0; i < size; i++)
+	{
+	write(1, &str[i], 1);
+	count++; }
+	return (count); }
 /**
  * numbers -print %d and %i
  * @_print: va_list
@@ -43,25 +48,35 @@ int string(va_list _print)
  */
 int numbers(va_list _print)
 {
-int count = 0, a, b, num = 0;
+int count = 0, a, b, i, negative = 0, number = va_arg(_print, int);
 
-if (num >= 0)
+if (number >= 0)
 {
-	a = num; }
+	a = number;
 	while (a != 0)
 	{
 		b = a % 10;
-		_putchar(b + 48);
+		number[i] = b + 48;
 		a = a / 10;
-		count++; }
-if (num < 0)
+		count++;
+		i++; } }
+if (number < 0)
 {
-	_putchar('-');
-	count++;
+	a = number * -1;
+	negative = 1;
 	while (a != 0)
 	{
 		b = a % 10;
-		_putchar((b * -1) + 48);
+		number[i] = b + 48;
 		a = a / 10;
-		count++; } }
+		count++;
+		i++; } }
+if (negative == 1)
+{
+	write(1, "-", 1);
+	count++; }
+	while (i > 0)
+	{
+		i--;
+		write(1, &number[i], 1); }
 return (count); }
