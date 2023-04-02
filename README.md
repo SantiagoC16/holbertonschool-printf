@@ -13,9 +13,10 @@ The fucntion printf is a standard library function that produce output and can p
 
 <ul>
   <li> </li>
-  <li> </li>
+  <li> Examples </li>
   <li> Files </li>
 </ul>
+
 Authors:
-[Santiago Cariat]: https://github.com/SantiagoC16
-[Miguel Damasco]:  https://github.com/Froggstar11
+Santiago Cariat: https://github.com/SantiagoC16
+Miguel Damasco:  https://github.com/Froggstar11
