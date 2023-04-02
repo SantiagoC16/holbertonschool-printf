@@ -48,7 +48,7 @@ int size, count = 0, i;
  */
 int numbers(va_list _print)
 {
-int count = 0, a, b, i, negative = 0, number = va_arg(_print, int);
+int count = 0, a, b, i, negative = 0, number = va_arg(_print, int), numb[30];
 
 if (number >= 0)
 {
@@ -56,7 +56,7 @@ if (number >= 0)
 	while (a != 0)
 	{
 		b = a % 10;
-		number[i] = b + 48;
+		numb[i] = b + 48;
 		a = a / 10;
 		count++;
 		i++; } }
@@ -67,7 +67,7 @@ if (number < 0)
 	while (a != 0)
 	{
 		b = a % 10;
-		number[i] = b + 48;
+		numb[i] = b + 48;
 		a = a / 10;
 		count++;
 		i++; } }
@@ -78,5 +78,5 @@ if (negative == 1)
 	while (i > 0)
 	{
 		i--;
-		write(1, &number[i], 1); }
+		write(1, &numb[i], 1); }
 return (count); }
