@@ -40,17 +40,21 @@ The fucntion printf is a standard library function that produce output and can p
  </details>
  </div>
 
- <div><h2> How the function work: </h2>
+ <div>
+ <details>
+ <h1> How the function work: </h1>
 
  1. We check if the string isn't empty
  2. If is empty we return an error message
  3. if is not empty we itterate the string looking for the simbol %
  4.
 
-
+ </details>
  </div>
+
+ <div>
  <details>
- <div><summary><h2> Examples </h2> </summary>
+ <summary><h1> Examples </h1> </summary>
 
  |              Input             |      Output      |
  | ------------------------------ | ---------------- |
@@ -62,7 +66,7 @@ The fucntion printf is a standard library function that produce output and can p
 
  <div>
  <details>
- <summary><h2> Files </h2> </summary>
+ <summary><h1> Files </h1> </summary>
 
  1. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_printf.c">_printf.c</a></p></h4>
  2. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/print_all.c">print_all.c</a></p></h4>
