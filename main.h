@@ -26,5 +26,6 @@ int print_all(char x, va_list _print);
 int character(va_list _print);
 int string(va_list _print);
 int porcentaje(va_list _print);
+int numbers(va_list _print);
 
 #endif
