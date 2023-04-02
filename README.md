@@ -18,5 +18,5 @@ The fucntion printf is a standard library function that produce output and can p
 </ul>
 
 Authors:
-Santiago Cariat: https://github.com/SantiagoC16
-Miguel Damasco:  https://github.com/Froggstar11
+<a href="https://github.com/SantiagoC16">Santiago Caritat</a>
+<a href="https://github.com/Froggstar11">Miguel Damasco</a>
