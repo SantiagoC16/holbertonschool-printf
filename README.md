@@ -44,12 +44,12 @@ The fucntion printf is a standard library function that produce output and can p
  <details>
  <summary> <h1> How the function work: </h1> </summary>
 
- 1. We check if the string isn't empty and if is empty we return an error message
- 2. If is not empty we itterate the string looking for the simbol %
- 3. Then we check if after finding % the next char is '\0' and if it is return an error message
- 4. If is not '\0' then we call the funcion print_all.c who check what kind of character match we the ones we are looking for
- 5. After it find a matching character is redirected to aux_functions.c which is the give you the instructions depending on character
- 6. Print
+ 1. We check if the string isn't empty and if is empty we return an error message.
+ 2. If is not empty we itterate the string looking for the simbol %.
+ 3. Then we check if after finding % the next char is '\0' and if it is return an error message.
+ 4. If is not '\0' then we call the funcion print_all.c who check what kind of character match we the ones we are looking for.
+ 5. After it find a matching character is redirected to aux_functions.c and more_aux_functions.c which is the give you the instructions depending on character.
+ 6. If the character is 's', 'c', 'd', 'i', '%', NULL will print a string, a character, a number, a percentaje sign, or NULL respectively.
 
  </details>
  </div>
@@ -58,10 +58,11 @@ The fucntion printf is a standard library function that produce output and can p
  <details>
  <summary><h1> Examples </h1> </summary>
 
- |              Input             |      Output      |
- | ------------------------------ | ---------------- |
- | _printf("%s", "Hello World")   | Hello World      |
- | _printf("Im %d years old", 20) | Im 20 years old  |
+ |                Input                |        Output         |
+ | ----------------------------------- | --------------------- |
+ | _printf("%s", "Hello World")        | Hello World           |
+ | _printf("Im %d years old", 20)      | Im 20 years old       |
+ | _printf("My name start with %c", A) | My name start with A  |
 
  </details>
  </div>
@@ -75,6 +76,7 @@ The fucntion printf is a standard library function that produce output and can p
  3. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/aux_functions.c">aux_functions.c</a></p></h4>
  4. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/main.h">main.h</a></p></h4>
  5. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_putchar.c">_putchar.c</a></p></h4>
+ 6. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/more_aux_functions.c">more_aux_functions.c</p></h4>
 
  </details>
  </div>
