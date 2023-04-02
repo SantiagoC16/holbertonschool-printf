@@ -11,7 +11,8 @@ The fucntion printf is a standard library function that produce output and can p
 | %d, %i           | Print a number   |
 | %%               | Print %          |
 
- <div><h2> Requirements </h2>
+ <details>
+ <div><h2><summary> Requirements </summary> </h2>
 
  <h4>General</h4>
  <li> Allowed editors: vi, vim, emacs  </li>
@@ -35,14 +36,14 @@ The fucntion printf is a standard library function that produce output and can p
  <li> va_copy (man 3 va_copy) </li>
  <li> va_arg (man 3 va_arg) </li>
 
- </div>
+ </div></details>
 
  <div><h2> How the function work: </h2>
 
  1. We check if the string isn't empty
  2. If is empty we return an error message
  3. if is not empty we itterate the string looking for the simbol %
- 4. 
+ 4.
 
 
  </div>
