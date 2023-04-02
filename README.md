@@ -70,7 +70,7 @@ The fucntion printf is a standard library function that produce output and can p
 
  1. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_printf.c">_printf.c</a></p></h4>
  2. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/print_all.c">print_all.c</a></p></h4>
- 3. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/aux_functions.c">aux_functions.c</a></p></h4> 
+ 3. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/aux_functions.c">aux_functions.c</a></p></h4>
  4. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/main.h">main.h</a></p></h4>
  5. <h4><p><a href="https://github.com/SantiagoC16/holbertonschool-printf/blob/master/_putchar.c">_putchar.c</a></p></h4>
 
