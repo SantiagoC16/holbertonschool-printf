@@ -11,7 +11,11 @@ The fucntion printf is a standard library function that produce output and can p
 | %d, %i           | Print a number   |
 | %%               | Print %          |
 
-
+<ul>
+  <li> </li>
+  <li> </li>
+  <li> Files </li>
+</ul>
 Authors:
 [Santiago Cariat] https://github.com/SantiagoC16
 [Miguel Damasco]  https://github.com/Froggstar11
