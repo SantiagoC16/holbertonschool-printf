@@ -44,10 +44,12 @@ The fucntion printf is a standard library function that produce output and can p
  <details>
  <summary> <h1> How the function work: </h1> </summary>
 
- 1. We check if the string isn't empty
- 2. If is empty we return an error message
- 3. if is not empty we itterate the string looking for the simbol %
- 4.
+ 1. We check if the string isn't empty and if is empty we return an error message
+ 2. If is not empty we itterate the string looking for the simbol %
+ 3. Then we check if after finding % the next char is '\0' and if it is return an error message
+ 4. If is not '\0' then we call the funcion print_all.c who check what kind of character match we the ones we are looking for
+ 5. After it find a matching character is redirected to aux_functions.c which is the give you the instructions depending on character
+ 6. Print
 
  </details>
  </div>
