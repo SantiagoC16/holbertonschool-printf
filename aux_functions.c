@@ -18,7 +18,7 @@ int character(va_list _print)
  */
 int porcentaje(__attribute__ ((unused)) va_list _print)
 {
-	write(1, "%", 1);
+	write(1, "%", 1); /* print character % calling the function write */
 	return (1); }
 /**
  * string - print %s
