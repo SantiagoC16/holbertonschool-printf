@@ -30,14 +30,14 @@ int string(va_list _print)
 	char *str;
 int size, count = 0, i;
 
-	str = va_arg(_print, char *);
+	str = va_arg(_print, char *); /* initializate str with the next argument in thelist of arguments _print */
 	if (str == NULL)
 	{
-		str = "(null)";
+		str = "(null)"; /* if str null, str is (null) string */
 	}
-	size = strlen(str);
-	for (i = 0; i < size; i++)
+	size = strlen(str); /* take the size of str string */
+	for (i = 0; i < size; i++) /* iterates str and print the character in evrery position of the string with the function write */
 	{
 	write(1, &str[i], 1);
-	count++; }
+	count++; /* count increase 1 */ }
 	return (count); }
