@@ -6,10 +6,10 @@
  */
 int character(va_list _print)
 {
-	char ch;
+	char ch; /* define variabel ch */
 
-	ch = va_arg(_print, int);
-	_putchar(ch);
+	ch = va_arg(_print, int); /*initializate with the next argument in the list argument _print */
+	_putchar(ch); /* call the function _putchar sending ch as parameter and return 1 */
 	return (1); }
 /**
  * porcentaje - print %
