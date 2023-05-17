@@ -83,4 +83,4 @@ The fucntion printf is a standard library function that produce output and can p
 
 <h5>Authors: </h5>
 <p><a href="https://github.com/SantiagoC16">Santiago Caritat</a></p>
-<p><a href="https://github.com/Froggstar11">Miguel Damasco</a></p>
+<p><a href="https://github.com/Froggstar10">Miguel Damasco</a></p>
